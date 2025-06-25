@@ -7,7 +7,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "json-server --watch db.json --port 3000",
-    "start:render": "json-server --watch db.json --port $PORT"
+    "start:render": "json-server --host 0.0.0.0 --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.3"
